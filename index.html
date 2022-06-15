@@ -9,15 +9,28 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    <div class="backdrop"></div>
     <header>
         <h1>Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
     </header>
     <nav>
+        <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+        </button>
         <a href="#">Home</a>
         <a href="#">Notícias</a>
         <a href="#">Curiosidades</a>
         <!--<a href="#">Contato</a>!-->
+    </nav>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">Home</li>
+            <li class="mobile-nav__item">Notícias</li>
+            <li class="mobile-nav__item">Curiosidades</li>
+        </ul>
     </nav>
     <main>
         <article>
@@ -90,5 +103,6 @@
     <footer>
         <p>Site criado por <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">Gustavo Guanabara</a> para o <a href="https://www.youtube.com/cursoemvideo" target="_blank" rel="external">CursoemVideo</a>.</p>
     </footer>
+    <script src="shared.js"></script>
 </body>
 </html>
